@@ -1,6 +1,5 @@
 on:
   webhook:
-    method: post
 jobs:
   print:
     name: Print
