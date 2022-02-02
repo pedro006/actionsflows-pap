@@ -2,8 +2,8 @@ on:
   webhook:
     method: post
 jobs:
-  email:
-    name: Send Email
+  print:
+    name: Print
     runs-on: ubuntu-latest
     steps:
       - name: Print Outputs
